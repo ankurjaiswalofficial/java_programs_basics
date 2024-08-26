@@ -14,7 +14,7 @@ class Program7 extends Thread {
         }
     }
 
-    public static void main(String arr[]) {
+    public static void main(String[] arr) {
         Thread t = Thread.currentThread();
         System.out.println("main() is invoked in" + t.getName() + "thread...");
     }
